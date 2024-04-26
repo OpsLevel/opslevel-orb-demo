@@ -16,7 +16,7 @@ jobs:
       - report_deploy/report:
           deployer_email: "robot@opslevel.com"
           deployer_name: "OpsLevel Robot"
-          description: "hello world - this deploy event was sent from test-deploy.yml from the opslevel orb"
+          description: "hello world - this deploy event was sent for the circleci orb demo"
           environment: "production"
           service: "opslevel_circleci_orb"
 
